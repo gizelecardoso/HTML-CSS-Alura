@@ -1,0 +1,115 @@
+.titulo-principal{
+    font-size: 60px;
+    text-align: center;
+    background-color:  #851944;
+    color: #FAFFFA;
+    font-family: "Open Sans Condensed","Arial", sans-serif;
+    padding: 25px;
+    border-bottom: 10px solid black;
+    text-transform: uppercase;
+}
+
+.pagina{
+    background-color: #F2FFFC;
+    font-size: 120%;
+    font-family: "Crimson Text","Times New Roman", serif;
+    line-height: 1.5;
+}
+
+.conteudo{
+    width: 840px;
+	margin: auto;
+    padding: 20px 0;
+    padding-bottom: 80px;
+    text-align: justify;
+}
+
+.menu-navegacao{
+    background-color:  #3C1D3D;
+    width: 300px;
+    text-align: center;
+    padding: 20px; 
+    width: 15%;  
+    box-sizing: border-box;
+    position: relative;
+    top: 310px;
+}
+
+.minha-imagem{
+    position: absolute;
+	top: 0;
+    right: 0;
+}
+
+
+.conteudo-principal{
+    width: 85%;
+    float: left;
+}
+
+.nome-menu{
+    font-size: 30px;
+    color: #FAFFFA;
+    margin-bottom: 25px;
+}
+
+.paginas-navegacao a{
+    text-transform: lowercase;
+    color: #FAFFFA;
+}
+
+
+.redes-sociais li{
+    display: inline-block;
+}
+
+.redes-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: 10000;
+    
+}
+
+.github{
+    background-image: url(img/github.png);
+}
+
+.twitter{
+    background-image: url(img/twitter.png);
+}
+
+.linkedin{
+    background-image: url(img/linkedin.png);
+}
+
+#rodape{
+	background-color: #000;
+	color: #F2FFFC;
+	padding: 20px;
+	clear: both;
+	position: fixed;
+	bottom:0;
+	width: 100%;
+}
+
+
+.menu-navegacao, .minha-imagem{
+	float: right;
+	border-left: 10px solid #000;
+	border-bottom: 10px solid #000;
+	box-sizing: border-box;
+}
+
+article{
+    border: 8px solid black;
+    background-color: #FAFFFC;
+    padding: 16px;
+    margin: 16px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+.conteudo-primeira-linha, .conteudo-segunda-linha{
+    display: inline-block;
+}
